@@ -1,0 +1,42 @@
+body {
+  font-size: 16px; }
+
+h1 {
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  margin: 50px auto 20px auto; }
+
+p {
+  text-align: center;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-size: 12px; }
+
+.jobBox {
+  min-height: 320px;
+  box-shadow: 0px 0px 10px #7e7e7e;
+  position: relative;
+  padding: 10px 20px;
+  float: left;
+  margin: 20px auto;
+  max-width: 320px;
+  transition: .2s ease-in-out; }
+  .jobBox h2 {
+    font-size: 1.3em;
+    font-weight: bold;
+    margin-top: 20px; }
+  .jobBox span {
+    color: #8b8b8b;
+    font-style: italic;
+    letter-spacing: 1px; }
+    .jobBox span em {
+      font-style: normal;
+      font-weight: 700;
+      color: black; }
+  .jobBox:hover {
+    background: rgba(185, 185, 185, 0.285);
+    cursor: pointer; }
+
+/*# sourceMappingURL=style.css.map */
