@@ -1,0 +1,104 @@
+@import 'vars';
+@import 'mixins';
+@import 'navBar';
+@import 'header';
+@import 'footer';
+
+body {
+    font-size: 16px;
+}
+
+.jobsContainer {
+    min-height: 60vh;
+}
+
+.filterOptions {
+    text-align: center;
+
+    .filterText {
+        margin-right: 10px;
+        color: $color-two;
+        font-weight: 700;
+        background: url(../img/line.png);
+        background-size: 100% 3px;
+        background-repeat: no-repeat;
+        background-position-y: 16px;
+        padding: 0 5px;
+        position: relative;
+        top: -1px;
+    }
+}
+
+select {
+    margin-bottom: 30px;
+}
+
+.job {
+    box-shadow: 0px 0px 10px rgb(128, 128, 128);
+    margin: 15px 0;
+    padding: 20px;
+    min-height: 180px;
+    border-top: 4px solid rgb(97, 97, 97);
+    transition: .2s ease-in-out;
+
+    h2 {
+        font-size: 1.3em;
+        min-height: 60px;
+        text-align: center;
+    }
+
+    .location {
+        font-style: italic;
+
+        .fa-map-marker {
+            color: $color-one;
+            margin-right: 10px;
+            position: relative;
+            top: -1px;
+        }
+    }
+
+    .recruiter {
+        max-width: 70%;
+        font-style: italic;
+
+        em {
+            color: $color-one;
+            margin-right: 5px;
+            height: 15px;
+        }
+    }
+
+    &:hover {
+        background: $color-two;
+        color: white;
+        border-top: 4px solid $color-one;
+        cursor: pointer;
+        outline: 4px solid $color-one;
+        outline-offset: 10px;
+    }
+}
+
+.filled {
+    span {
+        @include status;
+        background: green;
+        padding: 25px 11px;
+    }
+}
+
+.closed {
+    span {
+        @include status;
+        background: red;
+        padding: 25px 7px;
+    }
+}
+
+.expired {
+    span {
+        @include status;
+        background: grey;
+        padding: 25px 6px;
+    }
+}

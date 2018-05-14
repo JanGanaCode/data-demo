@@ -1,0 +1,32 @@
+.header {
+    height: 25vh;
+    margin-bottom: 50px;
+    background: $color-two;
+    background: $color-two; 
+    background: -webkit-linear-gradient(to right, $color-two, $color-one);  
+    background: linear-gradient(to right, $color-two, $color-one); 
+    border-bottom: 10px solid $color-two;
+    outline: 4px solid $color-one;
+    outline-offset: 5px;
+    
+    h1 {
+        color: white;
+        font-size: 3em;
+        font-weight: 700;
+        letter-spacing: 12px;
+        text-align: center;
+        padding-top: 10vh;
+
+        span {
+            font-weight: 300;
+            margin-right: 10px;
+            background: url(../img/line.png);
+            background-size: 100% 35px;
+            background-repeat: no-repeat;
+            background-position-y: 30px;
+            padding: 0 10px;
+            position: relative;
+            top: -2px;
+        }
+    }
+}

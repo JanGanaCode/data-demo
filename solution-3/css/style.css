@@ -1,0 +1,166 @@
+.navBar {
+  height: 80px;
+  background: #ed1e88; }
+  .navBar h3 {
+    text-align: center;
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+    color: white;
+    font-size: 1.4em;
+    letter-spacing: 3px;
+    padding-top: 30px; }
+
+.header {
+  height: 25vh;
+  margin-bottom: 50px;
+  background: #6B3491;
+  background: #6B3491;
+  background: -webkit-linear-gradient(to right, #6B3491, #ed1e88);
+  background: linear-gradient(to right, #6B3491, #ed1e88);
+  border-bottom: 10px solid #6B3491;
+  outline: 4px solid #ed1e88;
+  outline-offset: 5px; }
+  .header h1 {
+    color: white;
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: 12px;
+    text-align: center;
+    padding-top: 10vh; }
+    .header h1 span {
+      font-weight: 300;
+      margin-right: 10px;
+      background: url(../img/line.png);
+      background-size: 100% 35px;
+      background-repeat: no-repeat;
+      background-position-y: 30px;
+      padding: 0 10px;
+      position: relative;
+      top: -2px; }
+
+footer {
+  height: 60px;
+  background: black;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  letter-spacing: 4px;
+  margin-top: 50px; }
+
+body {
+  font-size: 16px; }
+
+.jobsContainer {
+  min-height: 60vh; }
+
+.filterOptions {
+  text-align: center; }
+  .filterOptions .filterText {
+    margin-right: 10px;
+    color: #6B3491;
+    font-weight: 700;
+    background: url(../img/line.png);
+    background-size: 100% 3px;
+    background-repeat: no-repeat;
+    background-position-y: 16px;
+    padding: 0 5px;
+    position: relative;
+    top: -1px; }
+
+select {
+  margin-bottom: 30px; }
+
+.job {
+  box-shadow: 0px 0px 10px gray;
+  margin: 15px 0;
+  padding: 20px;
+  min-height: 180px;
+  border-top: 4px solid #616161;
+  transition: .2s ease-in-out; }
+  .job h2 {
+    font-size: 1.3em;
+    min-height: 60px;
+    text-align: center; }
+  .job .location {
+    font-style: italic; }
+    .job .location .fa-map-marker {
+      color: #ed1e88;
+      margin-right: 10px;
+      position: relative;
+      top: -1px; }
+  .job .recruiter {
+    max-width: 70%;
+    font-style: italic; }
+    .job .recruiter em {
+      color: #ed1e88;
+      margin-right: 5px;
+      height: 15px; }
+  .job:hover {
+    background: #6B3491;
+    color: white;
+    border-top: 4px solid #ed1e88;
+    cursor: pointer;
+    outline: 4px solid #ed1e88;
+    outline-offset: 10px; }
+
+.filled span {
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  position: absolute;
+  border-radius: 100%;
+  transform: rotate(-20deg);
+  font-size: .8em;
+  height: 70px;
+  width: 70px;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 65px;
+  transform: rotate;
+  rotate: deg(100);
+  box-shadow: 0px 0px 15px #777777;
+  background: green;
+  padding: 25px 11px; }
+
+.closed span {
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  position: absolute;
+  border-radius: 100%;
+  transform: rotate(-20deg);
+  font-size: .8em;
+  height: 70px;
+  width: 70px;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 65px;
+  transform: rotate;
+  rotate: deg(100);
+  box-shadow: 0px 0px 15px #777777;
+  background: red;
+  padding: 25px 7px; }
+
+.expired span {
+  padding: 5px;
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 1px;
+  position: absolute;
+  border-radius: 100%;
+  transform: rotate(-20deg);
+  font-size: .8em;
+  height: 70px;
+  width: 70px;
+  right: 30px;
+  bottom: 30px;
+  border-radius: 65px;
+  transform: rotate;
+  rotate: deg(100);
+  box-shadow: 0px 0px 15px #777777;
+  background: grey;
+  padding: 25px 6px; }
+
+/*# sourceMappingURL=style.css.map */
