@@ -38,6 +38,50 @@
       position: relative;
       top: -2px; }
 
+.modal-content {
+  margin-top: 15vh;
+  border-radius: 0; }
+  .modal-content .modal-header {
+    background: #ed1e88;
+    color: white;
+    border-radius: 0;
+    border-top: 5px solid #6B3491;
+    border-bottom: 0;
+    box-shadow: 0px 0px 10px #373737; }
+    .modal-content .modal-header h5 {
+      text-align: center;
+      width: 100%;
+      font-weight: 700; }
+      .modal-content .modal-header h5 em {
+        font-weight: 300;
+        font-style: normal;
+        letter-spacing: 1px; }
+  .modal-content .modal-body {
+    text-align: center;
+    padding-top: 20px; }
+    .modal-content .modal-body div {
+      margin: 10px 0;
+      letter-spacing: 2px;
+      font-style: italic;
+      color: #757575; }
+    .modal-content .modal-body em {
+      font-style: normal;
+      font-weight: 700;
+      margin-right: 5px;
+      letter-spacing: 0px;
+      color: black; }
+  .modal-content .modal-footer {
+    border-top: none; }
+    .modal-content .modal-footer button {
+      background: #ed1e88;
+      border-radius: 0;
+      border: none;
+      margin: 0px auto 20px auto; }
+      .modal-content .modal-footer button:hover {
+        background: white;
+        color: #ed1e88;
+        box-shadow: 0px 0px 7px #c3c0c0; }
+
 footer {
   height: 60px;
   background: black;
@@ -74,7 +118,7 @@ select {
   box-shadow: 0px 0px 10px gray;
   margin: 15px 0;
   padding: 20px;
-  min-height: 180px;
+  min-height: 250px;
   border-top: 4px solid #616161;
   transition: .2s ease-in-out; }
   .job h2 {
@@ -95,6 +139,15 @@ select {
       color: #ed1e88;
       margin-right: 5px;
       height: 15px; }
+  .job button {
+    background: #ed1e88;
+    border-radius: 0;
+    border: none;
+    position: absolute;
+    bottom: 45px; }
+    .job button:hover {
+      background: white;
+      color: #ed1e88; }
   .job:hover {
     background: #6B3491;
     color: white;
@@ -162,5 +215,12 @@ select {
   box-shadow: 0px 0px 15px #777777;
   background: grey;
   padding: 25px 6px; }
+
+@media (max-width: 991px) {
+  .header h1 {
+    font-size: 1.7em; } }
+@media (max-width: 500px) {
+  .header h1 {
+    font-size: 1.3em; } }
 
 /*# sourceMappingURL=style.css.map */

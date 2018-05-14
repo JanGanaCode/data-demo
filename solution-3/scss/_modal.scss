@@ -1,0 +1,62 @@
+.modal-content {
+    margin-top: 15vh;
+    border-radius: 0;
+
+    .modal-header {
+        background: $color-one;
+        color: white;
+        border-radius: 0;
+        border-top: 5px solid $color-two;
+        border-bottom: 0;
+        box-shadow: 0px 0px 10px rgb(55, 55, 55);
+
+        h5 {
+            text-align: center;
+            width: 100%;
+            font-weight: 700;
+
+            em {
+                font-weight: 300;
+                font-style: normal;
+                letter-spacing: 1px;
+            }
+        }
+    }
+
+    .modal-body {
+        text-align: center;
+        padding-top: 20px;
+
+        div {
+            margin: 10px 0;
+            letter-spacing: 2px;
+            font-style: italic;
+            color: rgb(117, 117, 117);
+        }
+
+        em {
+            font-style: normal;
+            font-weight: 700;
+            margin-right: 5px;
+            letter-spacing: 0px;
+            color: black;
+        }
+    }
+
+    .modal-footer {
+        border-top: none;
+
+        button {
+            background: $color-one;
+            border-radius: 0;
+            border: none;
+            margin: 0px auto 20px auto;
+    
+            &:hover {
+                background: white;
+                color: $color-one;
+                box-shadow: 0px 0px 7px #c3c0c0;
+            }
+        }
+    }
+}

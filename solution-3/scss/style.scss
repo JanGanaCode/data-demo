@@ -1,13 +1,17 @@
+// import
 @import 'vars';
 @import 'mixins';
 @import 'navBar';
 @import 'header';
+@import 'modal';
 @import 'footer';
 
+// general
 body {
     font-size: 16px;
 }
 
+// job
 .jobsContainer {
     min-height: 60vh;
 }
@@ -37,7 +41,7 @@ select {
     box-shadow: 0px 0px 10px rgb(128, 128, 128);
     margin: 15px 0;
     padding: 20px;
-    min-height: 180px;
+    min-height: 250px;
     border-top: 4px solid rgb(97, 97, 97);
     transition: .2s ease-in-out;
 
@@ -66,6 +70,19 @@ select {
             color: $color-one;
             margin-right: 5px;
             height: 15px;
+        }
+    }
+
+    button {
+        background: $color-one;
+        border-radius: 0;
+        border: none;
+        position: absolute;
+        bottom: 45px;
+
+        &:hover {
+            background: white;
+            color: $color-one;
         }
     }
 
@@ -102,3 +119,6 @@ select {
         padding: 25px 6px;
     }
 }
+
+// media queries
+@import 'mediaQueries';
